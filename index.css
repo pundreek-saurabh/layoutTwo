@@ -1,0 +1,145 @@
+body {
+  /*background-color: rgb(208, 255, 255);*/
+  background-color: red;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: -8px;
+  background-color: #fff7ec;
+}
+.navbar input[type=text] {
+  height: 40px;
+  width: 150px;
+  color: #7c7c7c;
+  border-radius: 10px;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+  padding: auto;
+  margin: 10px 300px 5px 50px;
+  font-size: 20px;
+}
+.navbar .logo {
+  font-size: 30px;
+  margin-left: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin-left: 150px;
+}
+.navbar ul li {
+  display: flex;
+}
+.navbar ul li a {
+  margin: 20px;
+  color: #7c7c7c;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.screenOne {
+  background-color: #9cc0d8;
+  height: 80vh;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.screenOne img {
+  height: 1000px;
+  width: 900px;
+  margin-top: -50vh;
+  margin-left: 500px;
+}
+.screenOne .smallHeading {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.screenOne .bigHeading {
+  font-size: 40px;
+  font-weight: 1000;
+  font-family: monospace;
+}
+.screenOne p {
+  font-size: 20px;
+  font-family: monospace;
+}
+.screenOne a {
+  color: #45a138;
+  text-decoration: none;
+}
+.screenOne .button {
+  background-color: #45a138;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+.container {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.screenTwo {
+  height: 80vh;
+  background-color: #fff7ec;
+  display: flex;
+  flex-direction: column;
+}
+.screenTwo .containerTwo {
+  margin-top: 80px;
+}
+.screenTwo .text {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.screenTwo .Heading {
+  font-size: 35px;
+  font-weight: 800;
+  font-family: monospace;
+}
+.screenTwo ul {
+  display: flex;
+  margin: 80px 200px 80px 200px;
+}
+.screenTwo ul li {
+  margin: 50px;
+  list-style: none;
+}
+.screenTwo ul li span {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: -4px;
+}
+.screenTwo ul li p {
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 500;
+}
+.screenTwo ul li button {
+  background-color: #45a138;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=index.css.map */

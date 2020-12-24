@@ -1,0 +1,146 @@
+body{
+    /*background-color: rgb(208, 255, 255);*/
+    background-color: rgb(255, 0, 0);
+    margin: 0px 0px 0px 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    
+    margin: -8px;
+    background-color: rgb(255, 247, 236);
+    input[type=text]{
+        height: 40px;
+        width: 150px;
+        color: #7c7c7c;
+        border-radius: 10px;
+        border: none;
+        font-family: monospace;
+        font-weight: bold;
+        padding:auto;
+        margin: 10px 300px 5px 50px;
+        font-size: 20px;
+    }
+    .logo{
+        font-size: 30px;
+        margin-left: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        margin-left: 150px;
+        li{
+            display: flex;
+            a{
+                margin: 20px;
+                color: #7c7c7c;
+                font-size: 20px;
+                font-weight: 700;
+                font-family: monospace;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.screenOne{
+    background-color: rgb(156, 192, 216);
+    height: 80vh;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    img{
+        height: 1000px;
+        width: 900px;
+        margin-top: -50vh;
+        margin-left: 500px;
+
+    }
+    .smallHeading{
+        font-size: 15px;
+        font-weight: bold;
+        font-family: monospace;
+    }
+    .bigHeading{
+        font-size: 40px;
+        font-weight: 1000;
+        font-family: monospace;
+    }
+    p{
+        font-size: 20px;
+        font-family: monospace;
+    }
+    a{
+        color: rgb(69, 161, 56);
+        text-decoration: none;
+    }
+    .button{
+        background-color:rgb(69, 161, 56);
+         height: 50px;
+         width: 200px;
+         border-radius: 10px;
+         border: none;
+         color: white;
+         font-size: 16px;
+    }
+}
+.container{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+
+
+.screenTwo{
+    height: 80vh;
+    background-color: rgb(255, 247, 236);
+    display: flex;
+    flex-direction: column;
+    .containerTwo{
+        margin-top: 80px;
+    }
+    .text{
+        font-size: 15px;
+        font-weight: bold;
+        font-family: monospace;
+    }
+    .Heading{
+        font-size: 35px;
+        font-weight: 800;
+        font-family: monospace;
+        
+    }
+    ul{
+        display: flex;
+        margin: 80px 200px 80px 200px;
+        li{
+            margin: 50px;
+            list-style: none;
+            span{
+                font-family: monospace;
+                font-size: 20px;
+                font-weight: 800;
+                margin-left: -4px;
+            }
+            p{
+                font-family: monospace;
+                font-size: 15px;
+                font-weight: 500;
+            }
+            button{
+                background-color:rgb(69, 161, 56);
+                height: 40px;
+                width: 150px;
+                border-radius: 10px;
+                border: none;
+                color: white;
+                font-size: 16px;
+            }
+            
+        }
+    }
+}
