@@ -1,0 +1,193 @@
+body {
+  /*background-color: rgb(208, 255, 255);*/
+  background-color: white;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #fff7ec;
+}
+.navbar input[type=text] {
+  height: 40px;
+  width: 150px;
+  color: #7c7c7c;
+  border-radius: 10px;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+  padding: auto;
+  margin: 10px 300px 5px 50px;
+  font-size: 20px;
+}
+.navbar .logo {
+  font-size: 30px;
+  margin-left: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin-left: 150px;
+}
+.navbar ul li {
+  display: flex;
+}
+.navbar ul li a {
+  margin: 20px;
+  color: #7c7c7c;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: monospace;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  transform: scale(1.4);
+  color: #45a138;
+}
+
+.screenOne {
+  background-color: #9cc0d8;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.screenOne img {
+  height: 1000px;
+  margin-top: -50vh;
+  margin-left: 500px;
+}
+.screenOne .smallHeading {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.screenOne .bigHeading {
+  font-size: 40px;
+  font-weight: 1000;
+  font-family: monospace;
+}
+.screenOne p {
+  font-size: 20px;
+  font-family: monospace;
+}
+.screenOne a {
+  color: #45a138;
+  text-decoration: none;
+}
+.screenOne a:hover {
+  color: #7c7c7c;
+  transform: scale(1.4);
+}
+.screenOne .button {
+  background-color: #45a138;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.screenOne .button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.screenTwo {
+  height: 80vh;
+  background-color: #fff7ec;
+  display: flex;
+  flex-direction: column;
+}
+.screenTwo .containerTwo {
+  margin-top: 80px;
+}
+.screenTwo .text {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.screenTwo .Heading {
+  font-size: 35px;
+  font-weight: 800;
+  font-family: monospace;
+}
+.screenTwo ul {
+  display: flex;
+  flex-direction: row;
+  margin: 80px 200px 80px 200px;
+}
+.screenTwo ul li {
+  margin: 40px;
+  list-style: none;
+}
+.screenTwo ul li span {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: -4px;
+}
+.screenTwo ul li p {
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 500;
+}
+.screenTwo ul li button {
+  background-color: #45a138;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.screenTwo ul li button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 600px) {
+  .navbar ul li {
+    display: none;
+  }
+
+  .navbar .logo {
+    margin-left: 10px;
+  }
+  .navbar input[type=text] {
+    margin: 10px 0px 10px -230px;
+    width: 100px;
+  }
+
+  .screenTwo {
+    height: 160vh;
+  }
+  .screenTwo .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .screenTwo ul {
+    margin: 80px 0px 0px 0px;
+  }
+
+  .screenOne .bigHeading {
+    font-size: 30px;
+  }
+  .screenOne p {
+    font-size: 15px;
+  }
+  .screenOne .container {
+    margin-left: 15px;
+    margin-top: 100px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
